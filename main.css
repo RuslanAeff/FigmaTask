@@ -5,7 +5,7 @@
     padding: 0;
 }
 header{
-    height: 300px;
+    height: auto;
     width: 1669px;
 }
 body{
@@ -15,7 +15,8 @@ body{
     height: 90px;
     display: flex;
     justify-content: space-between;    
-    flex-direction: row-reverse;
+    flex-direction: row;
+    align-items: center;
 }
 .image{
     width: 700px;
@@ -24,31 +25,48 @@ body{
     justify-content: center;
 }
 img{
-    width: 100px;
-    height: 50px;
+    width: 190px;
+    height: 80px;
 }
-.things-right{
+.things-right {
     margin-left: 100px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    
+}
+.things-right i{    
+    
+    font-size: 20px;
+    margin-right: 5px;
 }
 .things-left{
+    margin-right: 100px;
     align-items: center;
     justify-content: center;
 }
 .things-left i{
-    align-items: center;
-    font-size: 20px;
-}   
-.things-right i{    
-    align-items: center;
+
     font-size: 20px;
     margin-right: 5px;
+}   
+
+.down-items{
+    display: flex;
+    border-top: 0.5px solid black;
 }
-.downs-items{
-    margin-right: 10px;
+.downs-left{
+    margin-left: 130px;
+    margin-top: 19px;
+}
+.downs-right{
+    margin-right: 50px;
+    margin-top: 19px;
+    
 }
 .downs-left span{
      justify-content:space-between;
      margin-right: 50px;
+}
+.downs-right searchbar{
+      width: 100px;
 }
